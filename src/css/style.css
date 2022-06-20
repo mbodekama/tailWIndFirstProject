@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components
+{
+    .myCard{
+        @apply shadow-lg bg-white rounded-lg;
+    }
+    .btnBuy{
+        @apply inline-flex justify-between items-center px-5 py-2  bg-orange-600 rounded-lg;
+    }
+}
